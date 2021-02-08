@@ -1,0 +1,76 @@
+.title {
+    margin: 0;
+}
+
+.button {
+    box-sizing: border-box;
+    grid-area: button;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+    padding: 16px 24px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+
+    transition: all ease-in-out 300ms;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.light {
+    border-color: #fff;
+    color: #FFF;
+}
+
+.dark {
+    border-color: #000;
+    color: #000
+}
+
+.light:hover, .dark:hover {
+    border-color: #FF8A05;
+    color: #FF8A05
+}
+
+.light:active, .dark:active {
+    border-color: #A05400;
+    color: #A05400
+}
+
+.light:hover path, .dark:hover path {
+    fill: #FF8A05;
+}
+
+.light:active path, .dark:active path {
+    fill: #A05400;
+}
+
+.accent {
+    border-color: #FF8A05;
+    background-color: #FF8A05;
+    color: #FFF;
+}
+
+.accent:hover {
+    border-color: #FFB562;
+    background-color: #FFB562;
+}
+
+.accent:active {
+    border-color: #D3760B;
+    background-color: #D3760B;
+}
+
+.arrow {
+    display: flex;
+    padding-left: 17px;
+    align-items: center;
+}
+
+.arrow path {
+    transition: fill ease-in-out 300ms;
+}
